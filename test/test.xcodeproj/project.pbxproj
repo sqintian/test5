@@ -13,6 +13,7 @@
 		D77706831E4C592C00DE7B2E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77706811E4C592C00DE7B2E /* Main.storyboard */; };
 		D77706851E4C592C00DE7B2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D77706841E4C592C00DE7B2E /* Assets.xcassets */; };
 		D77706881E4C592C00DE7B2E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D77706861E4C592C00DE7B2E /* LaunchScreen.storyboard */; };
+		D7D6AE1D1E4C5DC4001134AD /* BagaBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D6AE1C1E4C5DC4001134AD /* BagaBtn.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D77706841E4C592C00DE7B2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D77706871E4C592C00DE7B2E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D77706891E4C592C00DE7B2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7D6AE1B1E4C5DC4001134AD /* BagaBtn.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BagaBtn.h; sourceTree = "<group>"; };
+		D7D6AE1C1E4C5DC4001134AD /* BagaBtn.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BagaBtn.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D777067C1E4C592C00DE7B2E /* AppDelegate.m */,
 				D777067E1E4C592C00DE7B2E /* ViewController.h */,
 				D777067F1E4C592C00DE7B2E /* ViewController.m */,
+				D7D6AE1B1E4C5DC4001134AD /* BagaBtn.h */,
+				D7D6AE1C1E4C5DC4001134AD /* BagaBtn.m */,
 				D77706811E4C592C00DE7B2E /* Main.storyboard */,
 				D77706841E4C592C00DE7B2E /* Assets.xcassets */,
 				D77706861E4C592C00DE7B2E /* LaunchScreen.storyboard */,
@@ -154,6 +159,7 @@
 				D77706801E4C592C00DE7B2E /* ViewController.m in Sources */,
 				D777067D1E4C592C00DE7B2E /* AppDelegate.m in Sources */,
 				D777067A1E4C592C00DE7B2E /* main.m in Sources */,
+				D7D6AE1D1E4C5DC4001134AD /* BagaBtn.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +318,7 @@
 				D777068E1E4C592C00DE7B2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
